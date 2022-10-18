@@ -4,7 +4,7 @@
 int main() {
 	std::cout << "Hello from GPEngineEditor" << std::endl;
 
-	GPEngine::SayHello();
+	GPEngine::CheckGLFW();
 
 	std::cin.get();
 }

@@ -178,6 +178,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{818DCDB9-60ED-3E2C-9F47-648EACB49BFD}</Project>
       <Name>GPEngineEditor</Name>
     </ProjectReference>
+    <ProjectReference Include="I:\GPEngine\build\GPEngineCore\glfw\src\glfw.vcxproj">
+      <Project>{BD81EBA1-9C37-3CA4-A163-64B9784EFED7}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

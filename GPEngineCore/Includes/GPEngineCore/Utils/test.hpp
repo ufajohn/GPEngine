@@ -1,4 +1,4 @@
 namespace GPEngine{
 
-	void SayHello();
+	int CheckGLFW();
 }
