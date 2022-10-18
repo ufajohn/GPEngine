@@ -1,0 +1,4 @@
+namespace GPEngine{
+
+	void SayHello();
+}
