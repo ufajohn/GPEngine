@@ -1,0 +1,10 @@
+^I:\GPENGINE\BUILD\CMAKEFILES\63D81C31C245B5649A5723D247A7E1FB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SI:/GPEngine -BI:/GPEngine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file I:/GPEngine/build/Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
