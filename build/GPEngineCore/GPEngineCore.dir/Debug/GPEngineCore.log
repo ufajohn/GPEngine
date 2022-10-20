@@ -1,2 +1,2 @@
-﻿  test.cpp
-  GPEngineCore.vcxproj -> I:\GPEngine\build\GPEngineCore\Debug\GPEngineCore.lib
+﻿  Application.cpp
+I:\GPEngine\GPEngineCore\src\GPEngineCore\Application.cpp(4,10): fatal error C1083: Не удается открыть файл включение: GPEngineCore/Utils/test.hpp: No such file or directory,

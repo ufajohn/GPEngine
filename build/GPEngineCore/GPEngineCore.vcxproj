@@ -269,8 +269,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="I:\GPEngine\GPEngineCore\src\GPEngineCore\Utils\test.cpp" />
-    <ClInclude Include="I:\GPEngine\GPEngineCore\Includes\GPEngineCore\Utils\test.hpp" />
+    <ClInclude Include="I:\GPEngine\GPEngineCore\Includes\GPEngineCore\Application.hpp" />
+    <ClCompile Include="I:\GPEngine\GPEngineCore\src\GPEngineCore\Application.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="I:\GPEngine\build\ZERO_CHECK.vcxproj">

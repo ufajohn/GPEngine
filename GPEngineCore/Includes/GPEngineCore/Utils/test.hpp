@@ -1,4 +1,0 @@
-namespace GPEngine{
-
-	int CheckGLFW();
-}
