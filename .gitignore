@@ -1,9 +1,9 @@
 # Binary Files
-Binaries/*
+binaries/*
 
 
 # Builds
-Build/*
+build/*
 build/.vs/Project/v16/Browse.VC.db
 build/.vs/Project/v16/.suo
 build/.vs/Project/v16/Browse.VC.db

@@ -1,7 +1,6 @@
 
 #pragma once
 #include <iostream>
-#include "GPEngineCore/Utils/test.hpp"
 #include <GLFW/glfw3.h>
 #include "GPEngineCore/Application.hpp"
 
