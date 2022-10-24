@@ -1,6 +1,6 @@
-^I:\GPENGINE\GPENGINEEDITOR\CMAKELISTS.TXT
+^F:\GPENGINE\GPENGINEEDITOR\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SI:/GPEngine -BI:/GPEngine/build --check-stamp-file I:/GPEngine/build/GPEngineEditor/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/GPEngine -BF:/GPEngine/build --check-stamp-file F:/GPEngine/build/GPEngineEditor/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

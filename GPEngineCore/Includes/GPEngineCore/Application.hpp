@@ -1,3 +1,5 @@
+#pragma once
+
 namespace GPEngine {
 
 	class Application {

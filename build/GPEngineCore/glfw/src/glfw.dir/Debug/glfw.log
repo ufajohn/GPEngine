@@ -1,4 +1,4 @@
-﻿  Building Custom Rule I:/GPEngine/external/glfw/src/CMakeLists.txt
+﻿  Building Custom Rule F:/GPEngine/external/glfw/src/CMakeLists.txt
   context.c
   init.c
   input.c
@@ -23,4 +23,4 @@
   Компиляция...
   wgl_context.c
   Создание кода...
-  glfw.vcxproj -> I:\GPEngine\build\GPEngineCore\glfw\src\Debug\glfw3.lib
+  glfw.vcxproj -> F:\GPEngine\build\GPEngineCore\glfw\src\Debug\glfw3.lib

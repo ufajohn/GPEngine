@@ -1,24 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="I:\GPEngine\GPEngineCore\src\GPEngineCore\Application.cpp">
+    <ClCompile Include="F:\GPEngine\GPEngineCore\src\GPEngineCore\Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="I:\GPEngine\GPEngineCore\Includes\GPEngineCore\Application.hpp">
+    <ClInclude Include="F:\GPEngine\GPEngineCore\Includes\GPEngineCore\Application.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GPEngine\GPEngineCore\Includes\GPEngineCore\Log.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="I:\GPEngine\GPEngineCore\CMakeLists.txt" />
+    <CustomBuild Include="F:\GPEngine\GPEngineCore\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{B64441E3-B1BA-34C7-A16A-9EAFD56DF3F0}</UniqueIdentifier>
+      <UniqueIdentifier>{F71E8AA7-90D1-35EB-81F3-E36CABDC506F}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{11143141-E249-312C-A5EC-E0CC737FE94D}</UniqueIdentifier>
+      <UniqueIdentifier>{DDA4BDBD-ABC6-308A-B9F2-D7A0723BF82F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

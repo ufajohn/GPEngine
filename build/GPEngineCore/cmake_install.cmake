@@ -1,4 +1,4 @@
-# Install script for directory: I:/GPEngine/GPEngineCore
+# Install script for directory: F:/GPEngine/GPEngineCore
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("I:/GPEngine/build/GPEngineCore/glfw/cmake_install.cmake")
+  include("F:/GPEngine/build/GPEngineCore/glfw/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("F:/GPEngine/build/GPEngineCore/spdlog/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("F:/GPEngine/build/GPEngineCore/glad/cmake_install.cmake")
 endif()
 

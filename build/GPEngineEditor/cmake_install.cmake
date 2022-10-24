@@ -1,4 +1,4 @@
-# Install script for directory: I:/GPEngine/GPEngineEditor
+# Install script for directory: F:/GPEngine/GPEngineEditor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

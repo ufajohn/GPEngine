@@ -1,2 +1,10 @@
 ﻿  Application.cpp
-  GPEngineCore.vcxproj -> I:\GPEngine\build\GPEngineCore\Debug\GPEngineCore.lib
+F:\GPEngine\external\glad\include\glad/glad.h(326,1): warning C4005: GL_ALL_ATTRIB_BITS: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\GL/gl.h(107): message : см. предыдущее определение "GL_ALL_ATTRIB_BITS"
+F:\GPEngine\external\glad\include\glad/glad.h(414,1): warning C4005: GL_LOGIC_OP: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\GL/gl.h(1152): message : см. предыдущее определение "GL_LOGIC_OP"
+F:\GPEngine\external\glad\include\glad/glad.h(498,1): warning C4005: GL_TEXTURE_COMPONENTS: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\GL/gl.h(1153): message : см. предыдущее определение "GL_TEXTURE_COMPONENTS"
+F:\GPEngine\external\glad\include\glad/glad.h(592,1): warning C4005: GL_CLIENT_ALL_ATTRIB_BITS: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\GL/gl.h(973): message : см. предыдущее определение "GL_CLIENT_ALL_ATTRIB_BITS"
+  GPEngineCore.vcxproj -> F:\GPEngine\build\GPEngineCore\Debug\GPEngineCore.lib

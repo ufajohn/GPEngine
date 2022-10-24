@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="I:\GPEngine\build\CMakeFiles\7efa932bbbc3596984471b930b926be5\update_mappings.rule">
+    <CustomBuild Include="F:\GPEngine\build\CMakeFiles\67c1a44c176ab97c2275ddc9a5563b91\update_mappings.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="I:\GPEngine\external\glfw\src\CMakeLists.txt" />
+    <CustomBuild Include="F:\GPEngine\external\glfw\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="I:\GPEngine\external\glfw\src\mappings.h.in">
+    <None Include="F:\GPEngine\external\glfw\src\mappings.h.in">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="I:\GPEngine\external\glfw\CMake\GenerateMappings.cmake" />
-    <None Include="I:\GPEngine\build\GPEngineCore\glfw\src\CMakeFiles\update_mappings" />
+    <None Include="F:\GPEngine\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="F:\GPEngine\build\GPEngineCore\glfw\src\CMakeFiles\update_mappings" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{CE31CF78-F23E-35CC-A6E3-FDE771487227}</UniqueIdentifier>
+      <UniqueIdentifier>{C6182B6A-F14A-32B4-9271-9EC8A91D7D80}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{B64441E3-B1BA-34C7-A16A-9EAFD56DF3F0}</UniqueIdentifier>
+      <UniqueIdentifier>{F71E8AA7-90D1-35EB-81F3-E36CABDC506F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

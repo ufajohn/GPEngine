@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BD81EBA1-9C37-3CA4-A163-64B9784EFED7}</ProjectGuid>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectGuid>{9D25DF94-14B0-3560-9769-8C50085E8397}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>glfw</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\GPEngine\build\GPEngineCore\glfw\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\GPEngine\build\GPEngineCore\glfw\src\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\GPEngine\build\GPEngineCore\glfw\src\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\GPEngine\build\GPEngineCore\glfw\src\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\GPEngine\build\GPEngineCore\glfw\src\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\GPEngine\build\GPEngineCore\glfw\src\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\GPEngine\build\GPEngineCore\glfw\src\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\GPEngine\build\GPEngineCore\glfw\src\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>I:\GPEngine\external\glfw\include;I:\GPEngine\external\glfw\src;I:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\GPEngine\external\glfw\include;F:\GPEngine\external\glfw\src;F:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -95,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>I:\GPEngine\external\glfw\include;I:\GPEngine\external\glfw\src;I:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\GPEngine\external\glfw\include;F:\GPEngine\external\glfw\src;F:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>I:\GPEngine\external\glfw\include;I:\GPEngine\external\glfw\src;I:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\GPEngine\external\glfw\include;F:\GPEngine\external\glfw\src;F:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,7 +111,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>I:\GPEngine\external\glfw\include;I:\GPEngine\external\glfw\src;I:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\GPEngine\external\glfw\include;F:\GPEngine\external\glfw\src;F:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -128,10 +128,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>I:\GPEngine\external\glfw\include;I:\GPEngine\external\glfw\src;I:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\GPEngine\external\glfw\include;F:\GPEngine\external\glfw\src;F:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>I:\GPEngine\external\glfw\include;I:\GPEngine\external\glfw\src;I:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\GPEngine\external\glfw\include;F:\GPEngine\external\glfw\src;F:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>I:\GPEngine\external\glfw\include;I:\GPEngine\external\glfw\src;I:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\GPEngine\external\glfw\include;F:\GPEngine\external\glfw\src;F:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -161,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>I:\GPEngine\external\glfw\include;I:\GPEngine\external\glfw\src;I:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\GPEngine\external\glfw\include;F:\GPEngine\external\glfw\src;F:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>I:\GPEngine\external\glfw\include;I:\GPEngine\external\glfw\src;I:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\GPEngine\external\glfw\include;F:\GPEngine\external\glfw\src;F:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +177,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>I:\GPEngine\external\glfw\include;I:\GPEngine\external\glfw\src;I:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\GPEngine\external\glfw\include;F:\GPEngine\external\glfw\src;F:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -193,10 +193,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>I:\GPEngine\external\glfw\include;I:\GPEngine\external\glfw\src;I:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\GPEngine\external\glfw\include;F:\GPEngine\external\glfw\src;F:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>I:\GPEngine\external\glfw\include;I:\GPEngine\external\glfw\src;I:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\GPEngine\external\glfw\include;F:\GPEngine\external\glfw\src;F:\GPEngine\build\GPEngineCore\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,11 +208,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="I:\GPEngine\external\glfw\src\CMakeLists.txt">
+    <CustomBuild Include="F:\GPEngine\external\glfw\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule I:/GPEngine/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/GPEngine/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SI:/GPEngine -BI:/GPEngine/build --check-stamp-file I:/GPEngine/build/GPEngineCore/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/GPEngine -BF:/GPEngine/build --check-stamp-file F:/GPEngine/build/GPEngineCore/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -220,12 +220,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\GPEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\GPEngine\build\GPEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\GPEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\GPEngine\build\GPEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule I:/GPEngine/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/GPEngine/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SI:/GPEngine -BI:/GPEngine/build --check-stamp-file I:/GPEngine/build/GPEngineCore/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/GPEngine -BF:/GPEngine/build --check-stamp-file F:/GPEngine/build/GPEngineCore/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -233,12 +233,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\GPEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\GPEngine\build\GPEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\GPEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\GPEngine\build\GPEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule I:/GPEngine/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/GPEngine/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SI:/GPEngine -BI:/GPEngine/build --check-stamp-file I:/GPEngine/build/GPEngineCore/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/GPEngine -BF:/GPEngine/build --check-stamp-file F:/GPEngine/build/GPEngineCore/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -246,12 +246,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\GPEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\GPEngine\build\GPEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\GPEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\GPEngine\build\GPEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule I:/GPEngine/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/GPEngine/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SI:/GPEngine -BI:/GPEngine/build --check-stamp-file I:/GPEngine/build/GPEngineCore/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/GPEngine -BF:/GPEngine/build --check-stamp-file F:/GPEngine/build/GPEngineCore/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -259,48 +259,48 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\GPEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\GPEngine\build\GPEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\GPEngine\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\GPEngine\build\GPEngineCore\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="I:\GPEngine\external\glfw\include\GLFW\glfw3.h" />
-    <ClInclude Include="I:\GPEngine\external\glfw\include\GLFW\glfw3native.h" />
-    <ClInclude Include="I:\GPEngine\external\glfw\src\internal.h" />
-    <ClInclude Include="I:\GPEngine\external\glfw\src\platform.h" />
-    <ClInclude Include="I:\GPEngine\external\glfw\src\mappings.h" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\context.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\init.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\input.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\monitor.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\platform.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\vulkan.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\window.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\egl_context.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\osmesa_context.c" />
-    <ClInclude Include="I:\GPEngine\external\glfw\src\null_platform.h" />
-    <ClInclude Include="I:\GPEngine\external\glfw\src\null_joystick.h" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\null_init.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\null_monitor.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\null_window.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\null_joystick.c" />
-    <ClInclude Include="I:\GPEngine\external\glfw\src\win32_time.h" />
-    <ClInclude Include="I:\GPEngine\external\glfw\src\win32_thread.h" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\win32_module.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\win32_time.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\win32_thread.c" />
-    <ClInclude Include="I:\GPEngine\external\glfw\src\win32_platform.h" />
-    <ClInclude Include="I:\GPEngine\external\glfw\src\win32_joystick.h" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\win32_init.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\win32_joystick.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\win32_monitor.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\win32_window.c" />
-    <ClCompile Include="I:\GPEngine\external\glfw\src\wgl_context.c" />
+    <ClInclude Include="F:\GPEngine\external\glfw\include\GLFW\glfw3.h" />
+    <ClInclude Include="F:\GPEngine\external\glfw\include\GLFW\glfw3native.h" />
+    <ClInclude Include="F:\GPEngine\external\glfw\src\internal.h" />
+    <ClInclude Include="F:\GPEngine\external\glfw\src\platform.h" />
+    <ClInclude Include="F:\GPEngine\external\glfw\src\mappings.h" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\context.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\init.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\input.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\monitor.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\platform.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\vulkan.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\window.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\egl_context.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\osmesa_context.c" />
+    <ClInclude Include="F:\GPEngine\external\glfw\src\null_platform.h" />
+    <ClInclude Include="F:\GPEngine\external\glfw\src\null_joystick.h" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\null_init.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\null_monitor.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\null_window.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\null_joystick.c" />
+    <ClInclude Include="F:\GPEngine\external\glfw\src\win32_time.h" />
+    <ClInclude Include="F:\GPEngine\external\glfw\src\win32_thread.h" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\win32_module.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\win32_time.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\win32_thread.c" />
+    <ClInclude Include="F:\GPEngine\external\glfw\src\win32_platform.h" />
+    <ClInclude Include="F:\GPEngine\external\glfw\src\win32_joystick.h" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\win32_init.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\win32_joystick.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\win32_monitor.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\win32_window.c" />
+    <ClCompile Include="F:\GPEngine\external\glfw\src\wgl_context.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="I:\GPEngine\build\ZERO_CHECK.vcxproj">
-      <Project>{B76ACD87-DFE0-3CC7-8894-0A1CD6D95CBF}</Project>
+    <ProjectReference Include="F:\GPEngine\build\ZERO_CHECK.vcxproj">
+      <Project>{94586280-91C2-3980-8376-FE85E26139E0}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

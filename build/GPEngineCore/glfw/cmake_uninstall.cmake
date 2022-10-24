@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "I:/GPEngine/build/GPEngineCore/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"I:/GPEngine/build/GPEngineCore/glfw/install_manifest.txt\"")
+if (NOT EXISTS "F:/GPEngine/build/GPEngineCore/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"F:/GPEngine/build/GPEngineCore/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "I:/GPEngine/build/GPEngineCore/glfw/install_manifest.txt" files)
+file(READ "F:/GPEngine/build/GPEngineCore/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})
